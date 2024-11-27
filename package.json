@@ -1,0 +1,20 @@
+{
+  "name": "iot-fleet-device-monitor",
+  "version": "1.0.0",
+  "description": "Monitor IoT devices and send notifications to Microsoft Teams",
+  "main": "src/monitor.js",
+  "scripts": {
+    "start": "node src/monitor.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "azure-iothub": "^1.14.1",
+    "axios": "^1.4.0",
+    "dotenv": "^16.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.6.1"
+  },
+  "author": "",
+  "license": "MIT"
+}
